@@ -16,7 +16,7 @@ public class Gboard extends JPanel{
     final int width = 800;
     final int height = width;
     BufferedImage pieces = null;
-    File chessimages = new File("icons/piece.png");
+    File chessimages = new File("icons/chess.png");
     static int px=0,py=0,colorx=255,colory=255,changedg=-1;
     piece[][] pieceAll = null;
     Gboard(){
@@ -65,7 +65,7 @@ public class Gboard extends JPanel{
             for(int i=0;i<=7;i++){
                 for(int j=0;j<=7;j++){
                     if(pieceAll[j][i].pieceName != "null"){
-                        g.drawImage(pieces.getSubimage(pieceAll[j][i].x*60, pieceAll[j][i].y*60, 60, 60), (7-j)*100, (7-i)*100, 100,100,null);
+                        g.drawImage(pieces.getSubimage(pieceAll[j][i].x*320, pieceAll[j][i].y*320, 320, 320), (7-j)*100, (7-i)*100, 100,100,null);
                     }                 
                 }
             }
