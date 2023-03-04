@@ -15,14 +15,14 @@ public class Game{
                         pieceAll[i][j].dead = "0";
                         pieceAll[i][j].position = "white";
                         pieceAll[i][j].x = 5;
-                        pieceAll[i][j].y = 1;
+                        pieceAll[i][j].y = 0;
                     }
                     if(j==6){
                         pieceAll[i][j].pieceName = "pawn";
                         pieceAll[i][j].dead = "0";
                         pieceAll[i][j].position = "black";
                         pieceAll[i][j].x = 5;
-                        pieceAll[i][j].y = 0;
+                        pieceAll[i][j].y = 1;
                     }
                     
                 }
@@ -30,106 +30,106 @@ public class Game{
             pieceAll[0][0].pieceName = "rook";
             pieceAll[0][0].dead = "0";
             pieceAll[0][0].position = "white";
-            pieceAll[0][0].x = 2;
-            pieceAll[0][0].y = 1;
+            pieceAll[0][0].x = 4;
+            pieceAll[0][0].y = 0;
 
             pieceAll[1][0].pieceName = "knhight";
             pieceAll[1][0].dead = "0";
             pieceAll[1][0].position = "white";
             pieceAll[1][0].x = 3;
-            pieceAll[1][0].y = 1;
+            pieceAll[1][0].y = 0;
 
 
             pieceAll[2][0].pieceName = "bishop";
             pieceAll[2][0].dead = "0";
             pieceAll[2][0].position = "white";
-            pieceAll[2][0].x = 4;
-            pieceAll[2][0].y = 1;
+            pieceAll[2][0].x = 2;
+            pieceAll[2][0].y = 0;
 
 
             pieceAll[3][0].pieceName = "king";
             pieceAll[3][0].dead = "0";
             pieceAll[3][0].position = "white";
-            pieceAll[3][0].x = 1;
-            pieceAll[3][0].y = 1;
+            pieceAll[3][0].x = 0;
+            pieceAll[3][0].y = 0;
 
 
             pieceAll[4][0].pieceName = "queen";
             pieceAll[4][0].dead = "0";
             pieceAll[4][0].position = "white";
-            pieceAll[4][0].x = 0;
-            pieceAll[4][0].y = 1;
+            pieceAll[4][0].x = 1;
+            pieceAll[4][0].y = 0;
 
 
             pieceAll[5][0].pieceName = "bishop";
             pieceAll[5][0].dead = "0";
             pieceAll[5][0].position = "white";
-            pieceAll[5][0].x = 4;
-            pieceAll[5][0].y = 1;
+            pieceAll[5][0].x = 2;
+            pieceAll[5][0].y = 0;
 
 
             pieceAll[6][0].pieceName = "knhight";
             pieceAll[6][0].dead = "0";
             pieceAll[6][0].position = "white";
             pieceAll[6][0].x = 3;
-            pieceAll[6][0].y = 1;
+            pieceAll[6][0].y = 0;
 
 
             pieceAll[7][0].pieceName = "rook";
             pieceAll[7][0].dead = "0";
             pieceAll[7][0].position = "white";
-            pieceAll[7][0].x = 2;
-            pieceAll[7][0].y = 1;
+            pieceAll[7][0].x = 4;
+            pieceAll[7][0].y = 0;
 
 
             pieceAll[0][7].pieceName = "rook";
             pieceAll[0][7].dead = "0";
             pieceAll[0][7].position = "black";
-            pieceAll[0][7].x = 2;
-            pieceAll[0][7].y = 0;
+            pieceAll[0][7].x = 4;
+            pieceAll[0][7].y = 1;
 
 
             pieceAll[1][7].pieceName = "knhight";
             pieceAll[1][7].dead = "0";
             pieceAll[1][7].position = "black";
             pieceAll[1][7].x = 3;
-            pieceAll[1][7].y = 0;
+            pieceAll[1][7].y = 1;
 
             pieceAll[2][7].pieceName = "bishop";
             pieceAll[2][7].dead = "0";
             pieceAll[2][7].position = "black";
-            pieceAll[2][7].x = 4;
-            pieceAll[2][7].y = 0;
+            pieceAll[2][7].x = 2;
+            pieceAll[2][7].y = 1;
 
             pieceAll[3][7].pieceName = "king";
             pieceAll[3][7].dead = "0";
             pieceAll[3][7].position = "black";
-            pieceAll[3][7].x = 1;
-            pieceAll[3][7].y = 0;
+            pieceAll[3][7].x = 0;
+            pieceAll[3][7].y = 1;
 
             pieceAll[4][7].pieceName = "queen";
             pieceAll[4][7].dead = "0";
             pieceAll[4][7].position = "black";
-            pieceAll[4][7].x = 0;
-            pieceAll[4][7].y = 0;
+            pieceAll[4][7].x = 1;
+            pieceAll[4][7].y = 1;
 
             pieceAll[5][7].pieceName = "bishop";
             pieceAll[5][7].dead = "0";
             pieceAll[5][7].position = "black";
-            pieceAll[5][7].x = 4;
-            pieceAll[5][7].y = 0;
+            pieceAll[5][7].x = 2;
+            pieceAll[5][7].y = 1;
 
             pieceAll[6][7].pieceName = "knhight";
             pieceAll[6][7].dead = "0";
             pieceAll[6][7].position = "black";
             pieceAll[6][7].x = 3;
-            pieceAll[6][7].y = 0;
+            pieceAll[6][7].y = 1;
 
             pieceAll[7][7].pieceName = "rook";
             pieceAll[7][7].dead = "0";
             pieceAll[7][7].position = "black";
-            pieceAll[7][7].x = 2;
-            pieceAll[7][7].y = 0;
+            pieceAll[7][7].x = 4;
+            pieceAll[7][7].y = 1;
 
 
 
@@ -147,7 +147,7 @@ public class Game{
                             pieceAll[movex][movey].dead = "0";
                             pieceAll[movex][movey].position = "white";
                             pieceAll[movex][movey].x = 5;
-                            pieceAll[movex][movey].y = 1;
+                            pieceAll[movex][movey].y = 0;
                         }else if(piecemove.pieceName == "null" && giveny == (1) && movey == (giveny+2) && (movex == givenx)){
                             pieceslected.pieceName = "null";
                             pieceslected.position = "null";                            
@@ -155,7 +155,7 @@ public class Game{
                             pieceAll[movex][movey].dead = "0";
                             pieceAll[movex][movey].position = "white";
                             pieceAll[movex][movey].x = 5;
-                            pieceAll[movex][movey].y = 1;
+                            pieceAll[movex][movey].y = 0;
 
                         }else if(piecemove.pieceName != "null" && piecemove.position == "black" && movey == giveny+1 && (movex == givenx+1 || movex == givenx - 1)){
                             pieceslected.pieceName = "null";
@@ -164,7 +164,7 @@ public class Game{
                             pieceAll[movex][movey].dead = "0";
                             pieceAll[movex][movey].position = "white";
                             pieceAll[movex][movey].x = 5;
-                            pieceAll[movex][movey].y = 1;
+                            pieceAll[movex][movey].y = 0;
                         }else{
                             return -1;
                         }
@@ -175,7 +175,6 @@ public class Game{
                                 k = 1;
                                 for(int i = giveny+k; i < movey;i=i+k){
                                     if(pieceAll[movex][i].pieceName == "null"){
-                                        System.out.println("hello123");
                                     }else{
                                         return -1;
                                     }
@@ -185,12 +184,10 @@ public class Game{
                                 }else{
                                     return -1;
                                 }
-                                System.out.println("hello");
                             }else if(movey < giveny){
                                 k = -1;
                                 for(int i = giveny+k; i > movey;i=i+k){
                                     if(pieceAll[movex][i].pieceName == "null"){
-                                        System.out.println("hello123");
                                     }else{
                                         return -1;
                                     }
@@ -200,7 +197,6 @@ public class Game{
                                 }else{
                                     return -1;
                                 }
-                                System.out.println("hello");
                             }else{
                                 return -1;
                             }
@@ -209,8 +205,8 @@ public class Game{
                             pieceAll[movex][movey].pieceName = "rook";
                             pieceAll[movex][movey].dead = "0";
                             pieceAll[movex][movey].position = "white";
-                            pieceAll[movex][movey].x = 2;
-                            pieceAll[movex][movey].y = 1;
+                            pieceAll[movex][movey].x = 4;
+                            pieceAll[movex][movey].y = 0;
                             pieceslected.pieceName = "null";
                             pieceslected.position = "null";
 
@@ -220,7 +216,6 @@ public class Game{
                                 k = 1;
                                 for(int i = givenx+k; i < movex;i=i+k){
                                     if(pieceAll[i][movey].pieceName == "null"){
-                                        System.out.println("hello123");
                                     }else{
                                         return -1;
                                     }
@@ -230,14 +225,12 @@ public class Game{
                                 }else{
                                     return -1;
                                 }
-                                System.out.println("hello");
                             }else if(movex < givenx){
                                 k = -1;
                                 if(movex < givenx){
                                     k = -1;
                                     for(int i = givenx+k; i > movex;i=i+k){
                                         if(pieceAll[i][movey].pieceName == "null"){
-                                            System.out.println("hello123");
                                         }else{
                                             return -1;
                                         }
@@ -247,7 +240,6 @@ public class Game{
                                     }else{
                                         return -1;
                                     }
-                                    System.out.println("hello");
                                 }
                             }else{
                                 return -1;
@@ -257,8 +249,8 @@ public class Game{
                             pieceAll[movex][movey].pieceName = "rook";
                             pieceAll[movex][movey].dead = "0";
                             pieceAll[movex][movey].position = "white";
-                            pieceAll[movex][movey].x = 2;
-                            pieceAll[movex][movey].y = 1;
+                            pieceAll[movex][movey].x = 4;
+                            pieceAll[movex][movey].y = 0;
                             pieceslected.pieceName = "null";
                             pieceslected.position = "null";
 
@@ -272,7 +264,6 @@ public class Game{
                            int j = givenx+kx;
                             int i = giveny+ky;
                             if(givenx - movex != giveny - movey){
-                                System.out.println((givenx - movex)+" hello "+(movey - movex));
                                 return -1;
                             }
                             while(j > movex){
@@ -285,7 +276,6 @@ public class Game{
                                 i=i+ky;
                             }
 
-                            System.out.println(i+" "+j);
                             if(pieceAll[j][i].pieceName == "null" || pieceAll[j][i].position == "black"){
 
                             }else{
@@ -296,8 +286,8 @@ public class Game{
                             pieceAll[movex][movey].pieceName = "bishop";
                             pieceAll[movex][movey].dead = "0";
                             pieceAll[movex][movey].position = "white";
-                            pieceAll[movex][movey].x = 4;
-                            pieceAll[movex][movey].y = 1;
+                            pieceAll[movex][movey].x = 2;
+                            pieceAll[movex][movey].y = 0;
 
                         }else if(movex > givenx && movey < giveny){
                             kx=1;
@@ -305,7 +295,6 @@ public class Game{
                             int j = givenx+kx;
                             int i = giveny+ky;
                             if(movex - givenx != giveny - movey){
-                                System.out.println((givenx - movex)+" hello "+(movey - movex));
                                 return -1;
                             }
                             while(j < movex){
@@ -318,7 +307,6 @@ public class Game{
                                 i=i+ky;
                             }
 
-                            System.out.println(i+" "+j);
                             if(pieceAll[j][i].pieceName == "null" || pieceAll[j][i].position == "black"){
 
                             }else{
@@ -329,8 +317,8 @@ public class Game{
                             pieceAll[movex][movey].pieceName = "bishop";
                             pieceAll[movex][movey].dead = "0";
                             pieceAll[movex][movey].position = "white";
-                            pieceAll[movex][movey].x = 4;
-                            pieceAll[movex][movey].y = 1;
+                            pieceAll[movex][movey].x = 2;
+                            pieceAll[movex][movey].y = 0;
                             
                         }else if(movex < givenx && movey > giveny){
                             kx=-1;
@@ -338,7 +326,6 @@ public class Game{
                             int j = givenx+kx;
                             int i = giveny+ky;
                             if((givenx - movex) != (movey - giveny)){
-                                System.out.println((givenx - movex)+" "+(movey - movex));
                                 return -1;
                             }
                             while(j > movex){
@@ -362,8 +349,8 @@ public class Game{
                             pieceAll[movex][movey].pieceName = "bishop";
                             pieceAll[movex][movey].dead = "0";
                             pieceAll[movex][movey].position = "white";
-                            pieceAll[movex][movey].x = 4;
-                            pieceAll[movex][movey].y = 1;
+                            pieceAll[movex][movey].x = 2;
+                            pieceAll[movex][movey].y = 0;
                             
                         }else if(movex > givenx && movey > giveny){
                             kx=1;
@@ -371,7 +358,6 @@ public class Game{
                             int j = givenx+kx;
                             int i = giveny+ky;
                             if(movex - givenx != movey - giveny){
-                                System.out.println((givenx - movex)+" hello "+(movey - movex));
                                 return -1;
                             }
                             while(j < movex){
@@ -384,7 +370,6 @@ public class Game{
                                 i=i+ky;
                             }
 
-                            System.out.println(i+" "+j);
                             if(pieceAll[j][i].pieceName == "null" || pieceAll[j][i].position == "black"){
 
                             }else{
@@ -395,8 +380,8 @@ public class Game{
                             pieceAll[movex][movey].pieceName = "bishop";
                             pieceAll[movex][movey].dead = "0";
                             pieceAll[movex][movey].position = "white";
-                            pieceAll[movex][movey].x = 4;
-                            pieceAll[movex][movey].y = 1;
+                            pieceAll[movex][movey].x = 2;
+                            pieceAll[movex][movey].y = 0;
                         }
 
                     }else if(pieceslected.pieceName == "knhight"){
@@ -407,9 +392,9 @@ public class Game{
                             pieceAll[movex][movey].dead = "0";
                             pieceAll[movex][movey].position = "white";
                             pieceAll[movex][movey].x = 3;
-                            pieceAll[movex][movey].y = 1;
+                            pieceAll[movex][movey].y = 0;
                         }else{
-                            System.out.println("hello");
+                            return -1;
                         }
 
                     }else if(pieceslected.pieceName == "queen"){
@@ -419,7 +404,6 @@ public class Game{
                                 k = 1;
                                 for(int i = giveny+k; i < movey;i=i+k){
                                     if(pieceAll[movex][i].pieceName == "null"){
-                                        System.out.println("hello123");
                                     }else{
                                         return -1;
                                     }
@@ -429,12 +413,10 @@ public class Game{
                                 }else{
                                     return -1;
                                 }
-                                System.out.println("hello");
                             }else if(movey < giveny){
                                 k = -1;
                                 for(int i = giveny+k; i > movey;i=i+k){
                                     if(pieceAll[movex][i].pieceName == "null"){
-                                        System.out.println("hello123");
                                     }else{
                                         return -1;
                                     }
@@ -452,8 +434,8 @@ public class Game{
                             pieceAll[movex][movey].pieceName = "queen";
                             pieceAll[movex][movey].dead = "0";
                             pieceAll[movex][movey].position = "white";
-                            pieceAll[movex][movey].x = 0;
-                            pieceAll[movex][movey].y = 1;
+                            pieceAll[movex][movey].x = 1;
+                            pieceAll[movex][movey].y = 0;
                             pieceslected.pieceName = "null";
                             pieceslected.position = "null";
 
@@ -472,7 +454,6 @@ public class Game{
                                 }else{
                                     return -1;
                                 }
-                                System.out.println("hello");
                             }else if(movex < givenx){
                                 k = -1;
                                 if(movex < givenx){
@@ -498,8 +479,8 @@ public class Game{
                             pieceAll[movex][movey].pieceName = "queen";
                             pieceAll[movex][movey].dead = "0";
                             pieceAll[movex][movey].position = "white";
-                            pieceAll[movex][movey].x = 0;
-                            pieceAll[movex][movey].y = 1;
+                            pieceAll[movex][movey].x = 1;
+                            pieceAll[movex][movey].y = 0;
                             pieceslected.pieceName = "null";
                             pieceslected.position = "null";
 
@@ -511,7 +492,6 @@ public class Game{
                                int j = givenx+kx;
                                 int i = giveny+ky;
                                 if(givenx - movex != giveny - movey){
-                                    System.out.println((givenx - movex)+" hello "+(movey - movex));
                                     return -1;
                                 }
                                 while(j > movex){
@@ -524,7 +504,6 @@ public class Game{
                                     i=i+ky;
                                 }
     
-                                System.out.println(i+" "+j);
                                 if(pieceAll[j][i].pieceName == "null" || pieceAll[j][i].position == "black"){
     
                                 }else{
@@ -535,8 +514,8 @@ public class Game{
                                 pieceAll[movex][movey].pieceName = "queen";
                                 pieceAll[movex][movey].dead = "0";
                                 pieceAll[movex][movey].position = "white";
-                                pieceAll[movex][movey].x = 0;
-                                pieceAll[movex][movey].y = 1;
+                                pieceAll[movex][movey].x = 1;
+                                pieceAll[movex][movey].y = 0;
     
                             }else if(movex > givenx && movey < giveny){
                                 kx=1;
@@ -544,7 +523,6 @@ public class Game{
                                 int j = givenx+kx;
                                 int i = giveny+ky;
                                 if(movex - givenx != giveny - movey){
-                                    System.out.println((givenx - movex)+" hello "+(movey - movex));
                                     return -1;
                                 }
                                 while(j < movex){
@@ -567,8 +545,8 @@ public class Game{
                                 pieceAll[movex][movey].pieceName = "queen";
                                 pieceAll[movex][movey].dead = "0";
                                 pieceAll[movex][movey].position = "white";
-                                pieceAll[movex][movey].x = 0;
-                                pieceAll[movex][movey].y = 1;
+                                pieceAll[movex][movey].x = 1;
+                                pieceAll[movex][movey].y = 0;
                                 
                             }else if(movex < givenx && movey > giveny){
                                 kx=-1;
@@ -599,8 +577,8 @@ public class Game{
                                 pieceAll[movex][movey].pieceName = "queen";
                                 pieceAll[movex][movey].dead = "0";
                                 pieceAll[movex][movey].position = "white";
-                                pieceAll[movex][movey].x = 0;
-                                pieceAll[movex][movey].y = 1;
+                                pieceAll[movex][movey].x = 1;
+                                pieceAll[movex][movey].y = 0;
                                 
                             }else if(movex > givenx && movey > giveny){
                                 kx=1;
@@ -608,7 +586,7 @@ public class Game{
                                 int j = givenx+kx;
                                 int i = giveny+ky;
                                 if(movex - givenx != movey - giveny){
-                                    System.out.println((givenx - movex)+" hello "+(movey - movex));
+
                                     return -1;
                                 }
                                 while(j < movex){
@@ -621,7 +599,7 @@ public class Game{
                                     i=i+ky;
                                 }
     
-                                System.out.println(i+" "+j);
+
                                 if(pieceAll[j][i].pieceName == "null" || pieceAll[j][i].position == "black"){
     
                                 }else{
@@ -632,8 +610,8 @@ public class Game{
                                 pieceAll[movex][movey].pieceName = "queen";
                                 pieceAll[movex][movey].dead = "0";
                                 pieceAll[movex][movey].position = "white";
-                                pieceAll[movex][movey].x = 0;
-                                pieceAll[movex][movey].y = 1;
+                                pieceAll[movex][movey].x = 1;
+                                pieceAll[movex][movey].y = 0;
                             }
 
                         }
@@ -645,8 +623,8 @@ public class Game{
                             pieceAll[movex][movey].pieceName = "king";
                             pieceAll[movex][movey].dead = "0";
                             pieceAll[movex][movey].position = "white";
-                            pieceAll[movex][movey].x = 1;
-                            pieceAll[movex][movey].y = 1;
+                            pieceAll[movex][movey].x = 0;
+                            pieceAll[movex][movey].y = 0;
                         }
 
                     }
@@ -660,7 +638,7 @@ public class Game{
                             pieceAll[movex][movey].dead = "0";
                             pieceAll[movex][movey].position = "black";
                             pieceAll[movex][movey].x = 5;
-                            pieceAll[movex][movey].y = 0;
+                            pieceAll[movex][movey].y = 1;
                         }else if(piecemove.pieceName == "null" && giveny == (6) && movey == (giveny-2) && (movex == givenx)){
                             pieceslected.pieceName = "null";
                             pieceslected.position = "null";                            
@@ -668,7 +646,7 @@ public class Game{
                             pieceAll[movex][movey].dead = "0";
                             pieceAll[movex][movey].position = "black";
                             pieceAll[movex][movey].x = 5;
-                            pieceAll[movex][movey].y = 0;
+                            pieceAll[movex][movey].y = 1;
 
                         }else if(piecemove.position != "null" && piecemove.position == "white" && movey == giveny-1 && (movex == givenx+1 || movex == givenx - 1)){
                             pieceslected.pieceName = "null";
@@ -677,7 +655,7 @@ public class Game{
                             pieceAll[movex][movey].dead = "0";
                             pieceAll[movex][movey].position = "black";
                             pieceAll[movex][movey].x = 5;
-                            pieceAll[movex][movey].y = 0;
+                            pieceAll[movex][movey].y = 1;
                         }else{
                             return -1;
                         }
@@ -688,7 +666,7 @@ public class Game{
                                 k = 1;
                                 for(int i = giveny+k; i < movey;i=i+k){
                                     if(pieceAll[movex][i].pieceName == "null"){
-                                        System.out.println("hello123");
+
                                     }else{
                                         return -1;
                                     }
@@ -698,12 +676,12 @@ public class Game{
                                 }else{
                                     return -1;
                                 }
-                                System.out.println("hello");
+
                             }else if(movey < giveny){
                                 k = -1;
                                 for(int i = giveny+k; i > movey;i=i+k){
                                     if(pieceAll[movex][i].pieceName == "null"){
-                                        System.out.println("hello123");
+
                                     }else{
                                         return -1;
                                     }
@@ -713,7 +691,7 @@ public class Game{
                                 }else{
                                     return -1;
                                 }
-                                System.out.println("hello");
+
                             }else{
                                 return -1;
                             }
@@ -722,8 +700,8 @@ public class Game{
                             pieceAll[movex][movey].pieceName = "rook";
                             pieceAll[movex][movey].dead = "0";
                             pieceAll[movex][movey].position = "white";
-                            pieceAll[movex][movey].x = 2;
-                            pieceAll[movex][movey].y = 0;
+                            pieceAll[movex][movey].x = 4;
+                            pieceAll[movex][movey].y = 1;
                             pieceslected.pieceName = "null";
                             pieceslected.position = "null";
 
@@ -733,7 +711,7 @@ public class Game{
                                 k = 1;
                                 for(int i = givenx+k; i < movex;i=i+k){
                                     if(pieceAll[i][movey].pieceName == "null"){
-                                        System.out.println("hello123");
+
                                     }else{
                                         return -1;
                                     }
@@ -743,14 +721,14 @@ public class Game{
                                 }else{
                                     return -1;
                                 }
-                                System.out.println("hello");
+
                             }else if(movex < givenx){
                                 k = -1;
                                 if(movex < givenx){
                                     k = -1;
                                     for(int i = givenx+k; i > movex;i=i+k){
                                         if(pieceAll[i][movey].pieceName == "null"){
-                                            System.out.println("hello123");
+
                                         }else{
                                             return -1;
                                         }
@@ -769,8 +747,8 @@ public class Game{
                             pieceAll[movex][movey].pieceName = "rook";
                             pieceAll[movex][movey].dead = "0";
                             pieceAll[movex][movey].position = "black";
-                            pieceAll[movex][movey].x = 2;
-                            pieceAll[movex][movey].y = 0;
+                            pieceAll[movex][movey].x = 4;
+                            pieceAll[movex][movey].y = 1;
                             pieceslected.pieceName = "null";
                             pieceslected.position = "null";
 
@@ -784,7 +762,6 @@ public class Game{
                            int j = givenx+kx;
                             int i = giveny+ky;
                             if(givenx - movex != giveny - movey){
-                                System.out.println((givenx - movex)+" hello "+(movey - movex));
                                 return -1;
                             }
                             while(j > movex){
@@ -797,7 +774,7 @@ public class Game{
                                 i=i+ky;
                             }
 
-                            System.out.println(i+" "+j);
+
                             if(pieceAll[j][i].pieceName == "null" || pieceAll[j][i].position == "white"){
 
                             }else{
@@ -808,8 +785,8 @@ public class Game{
                             pieceAll[movex][movey].pieceName = "bishop";
                             pieceAll[movex][movey].dead = "0";
                             pieceAll[movex][movey].position = "white";
-                            pieceAll[movex][movey].x = 4;
-                            pieceAll[movex][movey].y = 0;
+                            pieceAll[movex][movey].x = 2;
+                            pieceAll[movex][movey].y = 1;
 
                         }else if(movex > givenx && movey < giveny){
                             kx=1;
@@ -817,7 +794,7 @@ public class Game{
                             int j = givenx+kx;
                             int i = giveny+ky;
                             if(movex - givenx != giveny - movey){
-                                System.out.println((givenx - movex)+" hello "+(movey - movex));
+
                                 return -1;
                             }
                             while(j < movex){
@@ -830,7 +807,7 @@ public class Game{
                                 i=i+ky;
                             }
 
-                            System.out.println(i+" "+j);
+
                             if(pieceAll[j][i].pieceName == "null" || pieceAll[j][i].position == "white"){
 
                             }else{
@@ -841,8 +818,8 @@ public class Game{
                             pieceAll[movex][movey].pieceName = "bishop";
                             pieceAll[movex][movey].dead = "0";
                             pieceAll[movex][movey].position = "black";
-                            pieceAll[movex][movey].x = 4;
-                            pieceAll[movex][movey].y = 0;
+                            pieceAll[movex][movey].x = 2;
+                            pieceAll[movex][movey].y = 1;
                             
                         }else if(movex < givenx && movey > giveny){
                             kx=-1;
@@ -850,7 +827,6 @@ public class Game{
                             int j = givenx+kx;
                             int i = giveny+ky;
                             if((givenx - movex) != (movey - giveny)){
-                                System.out.println((givenx - movex)+" "+(movey - movex));
                                 return -1;
                             }
                             while(j > movex){
@@ -874,8 +850,8 @@ public class Game{
                             pieceAll[movex][movey].pieceName = "bishop";
                             pieceAll[movex][movey].dead = "0";
                             pieceAll[movex][movey].position = "black";
-                            pieceAll[movex][movey].x = 4;
-                            pieceAll[movex][movey].y = 0;
+                            pieceAll[movex][movey].x = 2;
+                            pieceAll[movex][movey].y = 1;
                             
                         }else if(movex > givenx && movey > giveny){
                             kx=1;
@@ -883,7 +859,6 @@ public class Game{
                             int j = givenx+kx;
                             int i = giveny+ky;
                             if(movex - givenx != movey - giveny){
-                                System.out.println((givenx - movex)+" hello "+(movey - movex));
                                 return -1;
                             }
                             while(j < movex){
@@ -896,7 +871,6 @@ public class Game{
                                 i=i+ky;
                             }
 
-                            System.out.println(i+" "+j);
                             if(pieceAll[j][i].pieceName == "null" || pieceAll[j][i].position == "white"){
 
                             }else{
@@ -907,8 +881,8 @@ public class Game{
                             pieceAll[movex][movey].pieceName = "bishop";
                             pieceAll[movex][movey].dead = "0";
                             pieceAll[movex][movey].position = "black";
-                            pieceAll[movex][movey].x = 4;
-                            pieceAll[movex][movey].y = 0;
+                            pieceAll[movex][movey].x = 2;
+                            pieceAll[movex][movey].y = 1;
                         }
 
                     }else if(pieceslected.pieceName == "knhight"){
@@ -919,9 +893,10 @@ public class Game{
                             pieceAll[movex][movey].dead = "0";
                             pieceAll[movex][movey].position = "black";
                             pieceAll[movex][movey].x = 3;
-                            pieceAll[movex][movey].y = 0;
+                            pieceAll[movex][movey].y = 1;
                         }else{
-                            System.out.println("hello");
+
+                            return -1;
                         }
 
                     }else if(pieceslected.pieceName == "queen"){
@@ -931,7 +906,7 @@ public class Game{
                                 k = 1;
                                 for(int i = giveny+k; i < movey;i=i+k){
                                     if(pieceAll[movex][i].pieceName == "null"){
-                                        System.out.println("hello123");
+
                                     }else{
                                         return -1;
                                     }
@@ -941,12 +916,12 @@ public class Game{
                                 }else{
                                     return -1;
                                 }
-                                System.out.println("hello");
+
                             }else if(movey < giveny){
                                 k = -1;
                                 for(int i = giveny+k; i > movey;i=i+k){
                                     if(pieceAll[movex][i].pieceName == "null"){
-                                        System.out.println("hello123");
+
                                     }else{
                                         return -1;
                                     }
@@ -956,7 +931,7 @@ public class Game{
                                 }else{
                                     return -1;
                                 }
-                                System.out.println("hello");
+
                             }else{
                                 return -1;
                             }
@@ -965,8 +940,8 @@ public class Game{
                             pieceAll[movex][movey].pieceName = "queen";
                             pieceAll[movex][movey].dead = "0";
                             pieceAll[movex][movey].position = "black";
-                            pieceAll[movex][movey].x = 0;
-                            pieceAll[movex][movey].y = 0;
+                            pieceAll[movex][movey].x = 1;
+                            pieceAll[movex][movey].y = 1;
                             pieceslected.pieceName = "null";
                             pieceslected.position = "null";
 
@@ -976,7 +951,7 @@ public class Game{
                                 k = 1;
                                 for(int i = givenx+k; i < movex;i=i+k){
                                     if(pieceAll[i][movey].pieceName == "null"){
-                                        System.out.println("hello123");
+
                                     }else{
                                         return -1;
                                     }
@@ -986,14 +961,14 @@ public class Game{
                                 }else{
                                     return -1;
                                 }
-                                System.out.println("hello");
+
                             }else if(movex < givenx){
                                 k = -1;
                                 if(movex < givenx){
                                     k = -1;
                                     for(int i = givenx+k; i > movex;i=i+k){
                                         if(pieceAll[i][movey].pieceName == "null"){
-                                            System.out.println("hello123");
+
                                         }else{
                                             return -1;
                                         }
@@ -1003,7 +978,7 @@ public class Game{
                                     }else{
                                         return -1;
                                     }
-                                    System.out.println("hello");
+
                                 }
                             }else{
                                 return -1;
@@ -1013,8 +988,8 @@ public class Game{
                             pieceAll[movex][movey].pieceName = "queen";
                             pieceAll[movex][movey].dead = "0";
                             pieceAll[movex][movey].position = "black";
-                            pieceAll[movex][movey].x = 0;
-                            pieceAll[movex][movey].y = 0;
+                            pieceAll[movex][movey].x = 1;
+                            pieceAll[movex][movey].y = 1;
                             pieceslected.pieceName = "null";
                             pieceslected.position = "null";
 
@@ -1026,7 +1001,7 @@ public class Game{
                                int j = givenx+kx;
                                 int i = giveny+ky;
                                 if(givenx - movex != giveny - movey){
-                                    System.out.println((givenx - movex)+" hello "+(movey - movex));
+
                                     return -1;
                                 }
                                 while(j > movex){
@@ -1039,7 +1014,7 @@ public class Game{
                                     i=i+ky;
                                 }
     
-                                System.out.println(i+" "+j);
+
                                 if(pieceAll[j][i].pieceName == "null" || pieceAll[j][i].position == "white"){
     
                                 }else{
@@ -1050,8 +1025,8 @@ public class Game{
                                 pieceAll[movex][movey].pieceName = "queen";
                                 pieceAll[movex][movey].dead = "0";
                                 pieceAll[movex][movey].position = "black";
-                                pieceAll[movex][movey].x = 0;
-                                pieceAll[movex][movey].y = 0;
+                                pieceAll[movex][movey].x = 1;
+                                pieceAll[movex][movey].y = 1;
     
                             }else if(movex > givenx && movey < giveny){
                                 kx=1;
@@ -1082,8 +1057,8 @@ public class Game{
                                 pieceAll[movex][movey].pieceName = "queen";
                                 pieceAll[movex][movey].dead = "0";
                                 pieceAll[movex][movey].position = "black";
-                                pieceAll[movex][movey].x = 0;
-                                pieceAll[movex][movey].y = 0;
+                                pieceAll[movex][movey].x = 1;
+                                pieceAll[movex][movey].y = 1;
                                 
                             }else if(movex < givenx && movey > giveny){
                                 kx=-1;
@@ -1091,7 +1066,7 @@ public class Game{
                                 int j = givenx+kx;
                                 int i = giveny+ky;
                                 if((givenx - movex) != (movey - giveny)){
-                                    System.out.println((givenx - movex)+" "+(movey - movex));
+
                                     return -1;
                                 }
                                 while(j > movex){
@@ -1115,8 +1090,8 @@ public class Game{
                                 pieceAll[movex][movey].pieceName = "queen";
                                 pieceAll[movex][movey].dead = "0";
                                 pieceAll[movex][movey].position = "black";
-                                pieceAll[movex][movey].x = 0;
-                                pieceAll[movex][movey].y = 0;
+                                pieceAll[movex][movey].x = 1;
+                                pieceAll[movex][movey].y = 1;
                                 
                             }else if(movex > givenx && movey > giveny){
                                 kx=1;
@@ -1136,7 +1111,7 @@ public class Game{
                                     i=i+ky;
                                 }
     
-                                System.out.println(i+" "+j);
+
                                 if(pieceAll[j][i].pieceName == "null" || pieceAll[j][i].position == "white"){
     
                                 }else{
@@ -1147,8 +1122,8 @@ public class Game{
                                 pieceAll[movex][movey].pieceName = "queen";
                                 pieceAll[movex][movey].dead = "0";
                                 pieceAll[movex][movey].position = "black";
-                                pieceAll[movex][movey].x = 0;
-                                pieceAll[movex][movey].y = 0;
+                                pieceAll[movex][movey].x = 1;
+                                pieceAll[movex][movey].y = 1;
                             }
 
                         }
@@ -1160,8 +1135,8 @@ public class Game{
                             pieceAll[movex][movey].pieceName = "king";
                             pieceAll[movex][movey].dead = "0";
                             pieceAll[movex][movey].position = "black";
-                            pieceAll[movex][movey].x = 1;
-                            pieceAll[movex][movey].y = 0;
+                            pieceAll[movex][movey].x = 0;
+                            pieceAll[movex][movey].y = 1;
                         }
 
                     }
